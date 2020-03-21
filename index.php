@@ -21,35 +21,16 @@
         <div id="wrapper">
             <div class="wrapper d-flex align-items-stretch text-center">
                 <nav id="sidebar">
-
                     <div class="custom-menu">
                         <button type="button" id="sidebarCollapse" class="btn btn-primary">
                             <i class="fa fa-bars"></i>
                             <span class="sr-only">Toggle Menu</span>
                         </button>
                     </div>
-
-
                     <div class="p-4 pt-5" id="menu">
-                            <a href="index.php" class="logo"><img src="images/SVG/logo.svg"></a>
+                        <a href="index.php" class="logo"><img src="images/SVG/logo.svg"></a>
                         <p class="text-dark">TYD Innovation Incubator</p>
                         <ul class="list-unstyled components mt-5">
-                            <!--
-                            <li class="active">
-                                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                                <ul class="collapse list-unstyled" id="homeSubmenu">
-                                    <li>
-                                        <a href="#first">Home 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Home 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Home 3</a>
-                                    </li>
-                                </ul>
-                            </li>
--->
                             <li class="active">
                                 <a href="#home">Home</a>
                             </li>
@@ -68,22 +49,6 @@
                             <li>
                                 <a href="#contact">Contact</a>
                             </li>
-<!--
-                            <li>
-                                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dropdown</a>
-                                <ul class="collapse list-unstyled" id="pageSubmenu">
-                                    <li>
-                                        <a href="#">Page 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Page 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Page 3</a>
-                                    </li>
-                                </ul>
-                            </li>
--->
                         </ul>
                         <div class="span-1-25">
                             <ul class="icons mb-0 pt-4">
@@ -116,13 +81,6 @@
                     </p>
                     <p class="body-text"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
                     <p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
-                    <!--
-                    <ul class="actions">
-                        <li>
-                            <a href="#first" class="button special color1 circle icon fa-angle-right">Next</a>
-                        </li>
-                    </ul>
--->
                 </div>
             </section>
             <!--            services section-->
@@ -133,54 +91,106 @@
                         <h2 class="major">Services</h2>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <h4>Practical Courses</h4>
-                                    <p class="body-text mb-3"> Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod.
-                                        Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing
-                                        eu iaculis volutpat ac adipiscing volutpat ac adipiscing
-                                        faucibus.</p>
+                                <div class="col-md-6">
+                                    <h4>Web Applications Development.</h4>
+                                    <p class="body-text mb-3"> We build web applications based on your individual goals and objectives. Our team loves nothing more than trying to achieve developing your innovative ideas to come into life. </p>
                                     <p class="body-text"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Hosting</h4>
-                                    <p class="body-text mb-3"> Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod.
-                                        Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing
-                                        eu iaculis volutpat ac adipiscing volutpat ac adipiscing
-                                        faucibus.</p>
+                                    <h4>Digital Marketing.</h4>
+                                    <p class="body-text mb-3">Digital marketing allows you to strategically align your online presence as a major driving force towards achieving your business goals. Let's help you expand your digital presence and generate more traffic.</p>
                                     <p class="body-text"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Design and Development</h4>
-                                    <p class="body-text mb-3"> Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod.
-                                        Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing
-                                        eu iaculis volutpat ac adipiscing volutpat ac adipiscing
-                                        faucibus.</p>
+                                    <h4>Web Hosting.</h4>
+                                    <p class="body-text mb-3">We have a blazing fast web hosting solution perfect for you. Whether you have a low traffic, brand new blog or own a popular business site, we've got you covered. Run a website like a professional developer</p>
+                                    <p class="body-text"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Practical Courses.</h4>
+                                    <p class="body-text mb-3">Increase your practica skills today. Whether you're a beginner looking to make a career switch to tech or an experienced professional wanting to improve your skill set, we can help you.</p>
                                     <p class="body-text"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
             <!-- Work -->
+
             <section class="panel color1" id="work">
-                <div class="intro color1">
-                    <p class="mb-0">Discover</p>
-                    <h2 class="major">Our Work</h2>
-                    <p>
-                        We work tirelessy to provide our customers the best work we can achieve.
-                    </p>
-                </div>
-                <div class="gallery">
-                    <div class="group span-3">
-                        <a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" />
-                        ssdfsdfsdf</a>
-                        <a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-                        <a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+                <div class="inner columns divided">
+                    <div class="span-1-5">
+                        <div class="intro">
+                            <p class="mb-0">Discover</p>
+                            <h2 class="major">Our Work</h2>
+                            <p>
+                                We work tirelessy to provide you the best work we can achieve.
+                            </p>
+                        </div>
                     </div>
-                    <a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+                    <div class="span-4">
+                        <div class="container">
+                            <div class="row no-gutters">
+                                <div class="col-md-6 pb-4">
+                                    <div class="contents">
+                                        <a href="#" target="_blank">
+                                            <div class="contents-overlay"></div>
+                                            <img class="contents-image" src="images/showcase/darasa.png">
+                                            <div class="contents-details fadeIn-bottom">
+                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
+                                                <h3 class="contents-title mb-2">Darasa CMS</h3>
+                                                <p class="contents-text mb-2">Darasa CMS is a Master class focused on fully utilisation of digital facilitations among which are: texts, graphics, audios, videos, animations, and simulations.</p>
+                                                <p><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contents">
+                                        <a href="#" target="_blank">
+                                            <div class="contents-overlay"></div>
+                                            <img class="contents-image" src="images/showcase/alpha.png">
+                                            <div class="contents-details fadeIn-bottom">
+                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
+                                                <h3 class="contents-title mb-2">Alpha Hostels</h3>
+                                                <p class="contents-text mb-2">Alpha ni “Hostel” za Kisasa zenye Kukidhi Mahitaji ya malazi kwa ajili ya wanafunzi wanaosoma kwenye taasisi mbalimbali za Elimu nchini Tanzania.</p>
+                                                <p><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contents">
+                                        <a href="#" target="_blank">
+                                            <div class="contents-overlay"></div>
+                                            <img class="contents-image" src="images/showcase/makini.png">
+                                            <div class="contents-details fadeIn-bottom">
+                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
+                                                <h3 class="contents-title mb-2">Makini App</h3>
+                                                <p class="contents-text mb-2">Makini is an Electronic Financial Management Information System (eFMIS) for Small, Medium and Large Enterprises. Being a web-based Software, it also runs as a much secured Cloud Accounting Package designed to solve all issues that are faced by businesses.</p>
+                                                <p><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="contents">
+                                        <a href="#" target="_blank">
+                                            <div class="contents-overlay"></div>
+                                            <img class="contents-image" src="images/showcase/optimum.png">
+                                            <div class="contents-details fadeIn-bottom">
+                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
+                                                <h3 class="contents-title mb-2">Optimum Co. Ltd</h3>
+                                                <p class="contents-text mb-2">Optimum Company Limited deals with: Taxation, Financial and Accounting consultancy; Export and Import of used Cars from Japan; supply chain of clearing and forwarding industry; and Supply of Office Equipment.</p>
+                                                <p><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!--            news-->
@@ -192,29 +202,27 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h4>Tech leaders program</h4>
-                                    <p class="body-text mb-3"> We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="body-text mb-0">Author - John Doe</p>
-                                    <p class="text-muted">25 September 2019</p>
+                                    <h4>Good news for fitness centers (Gym) operators.</h4>
+                                    <p class="body-text mb-3"> With the increasingly awareness of health programs, Fitness centres (Gyms) have been one of the facilities to perform body therapies which most people attend as per their planned timetables. However, Gyms operations have been a big challenge to most service providers when... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text mb-0">Source - Admin</p>
+                                    <p class="text-muted">24 October 2018</p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Tech leaders program</h4>
+                                    <h4>Tech leaders program.</h4>
                                     <p class="body-text mb-3"> We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="body-text mb-0">Author - John Doe</p>
-                                    <p class="text-muted">25 September 2019</p>
+                                    <p class="body-text mb-0">Source - Admin</p>
+                                    <p class="text-muted">09 September 2019</p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Tech leaders program</h4>
-                                    <p class="body-text mb-3"> We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="body-text mb-0">Author - John Doe</p>
-                                    <p class="text-muted">25 September 2019</p>
+                                    <h4>Official launch of Makini System.</h4>
+                                    <p class="body-text mb-3"> After a long period of development and testing of Makini eFMIS, TYD is delighted to announce the launch of Makini system with effect from 15th September... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text mb-0">Source - Admin</p>
+                                    <p class="text-muted">15 September 2018</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
             <!--               about-->
 
@@ -236,17 +244,27 @@
                 </div>
             </section>
             <!-- Panel -->
+
             <section class="panel color4-alt" id="contact">
-                <div class="inner columns aligned">
-                    <div class="span-4">
-                        <h2 class="major">Contact us</h2>
+                <div class="inner columns divided">
+                    <div class="span-1-5">
+                        <div class="intro">
+                            <h2 class="major">Contact us</h2>
+                            <p class="mb-2">Ex-Daya Building, Uhuru Street No. 23, Ilala Shariff Shamba.</p>
+                            <p class="mb-2">TYD Innovation Incubator,</p>
+                            <p class="mb-2">P.O. Box 25444,</p>
+                            <p class="mb-3">Dar es Salaam, Tanzania.</p>
+                            <p class="mb-0" style="color: #fff">+255 735 717 253</p>
+                            <p class="mb-0" style="color: #fff">+255 713 518 549</p>
+                            <p class="body-text text-muted mb-2">Mon - Fri 08AM - 10AM</p>
+                        </div>
+                    </div>
+                    <div class="span-3-25">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-10">
-                                    <p class="mb-2">Get in touch with us on</p>
-                                    <p class="mb-0" style="color: #fff">+255 123 456 789</p>
-                                    <p class="body-text text-muted mb-2">Mon - Fri 08AM - 10AM</p>
-                                    <p class="mb-2">or you can quickly fill in this form.<br> It's easy.</p>
+                                    <h4 class="mt-5">Get in touch.</h4>
+                                    <p class="mb-2">Send us a quick message</p>
                                 </div>
                                 <div class="col-md-10">
                                     <form method="post" action="#">
@@ -257,12 +275,17 @@
                                             <input type="email" name="email" id="email" placeholder="Email" />
                                         </div>
                                         <div class="field">
-                                            <textarea name="message" id="message" rows="4" placeholder="Comment"></textarea>
+                                            <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
                                         </div>
-                                        <div class="field">
+                                        <div class="field half">
+                                            <input type="checkbox" id="demo-human" name="demo-human" class="color2" />
+                                            <label for="demo-human">
+                                                <p class="body-text mt-1">Not a robot</p>
+                                            </label>
+                                        </div>
+                                        <div class="field pt-1">
                                             <p class="body-text"><a href="#">Send Message <i class="fa fa-arrow-right"></i></a></p>
                                         </div>
-
                                     </form>
                                 </div>
                                 <div class="col-md-2 offset-md-5">
@@ -274,13 +297,11 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </section>
 
-<!--
+            <!--
                <section class="panel color4-alt" id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.4984791261786!2d39.25156871382914!3d-6.830676195063327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4a34a2b6c3af%3A0x586d3256c7115062!2sBungoni!5e0!3m2!1sen!2stz!4v1584748967323!5m2!1sen!2stz" width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </section>

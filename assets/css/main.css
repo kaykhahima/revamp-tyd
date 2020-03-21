@@ -2435,7 +2435,7 @@ button:disabled,
 }
 
 .panel > .inner {
-    padding: 3.5rem 3.5rem 2rem 10.5rem;
+    padding: 3.5rem 10.5rem;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -3711,9 +3711,7 @@ button:disabled,
         z-index: 1000;
     }
 
-    .scroll {
-        visibility: hidden;
-    }
+
 
 
 
@@ -3790,6 +3788,10 @@ button:disabled,
         -webkit-flex-direction: column-reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+    }
+
+    .scroll {
+        visibility: hidden;
     }
 
 }
