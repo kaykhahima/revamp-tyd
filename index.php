@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Ethereal by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -26,17 +21,17 @@
         <div id="wrapper">
             <div class="wrapper d-flex align-items-stretch text-center">
                 <nav id="sidebar">
-                    <!--
+
                     <div class="custom-menu">
                         <button type="button" id="sidebarCollapse" class="btn btn-primary">
                             <i class="fa fa-bars"></i>
                             <span class="sr-only">Toggle Menu</span>
                         </button>
                     </div>
--->
+
 
                     <div class="p-4 pt-5">
-                            <a href="index.html" class="logo"><img src="images/SVG/logo.svg"></a>
+                            <a href="index.php" class="logo"><img src="images/SVG/logo.svg"></a>
                         <p class="text-dark">TYD Innovation Incubator</p>
                         <ul class="list-unstyled components mt-5">
                             <!--
@@ -273,7 +268,7 @@
                                 <div class="col-md-2 offset-md-5">
                                     <ul class="icons">
                                         <li>
-                                            <a href="#" class="icon fa-map-marker" style="font-size: 15px"><span class="label">Map</span></a>
+                                            <a href="#map" class="icon fa-map-marker" style="font-size: 15px"><span class="label">Map</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -284,6 +279,12 @@
 
                 </div>
             </section>
+
+<!--
+               <section class="panel color4-alt" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.4984791261786!2d39.25156871382914!3d-6.830676195063327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4a34a2b6c3af%3A0x586d3256c7115062!2sBungoni!5e0!3m2!1sen!2stz!4v1584748967323!5m2!1sen!2stz" width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+-->
         </div>
     </div>
 

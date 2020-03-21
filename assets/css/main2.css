@@ -16,6 +16,9 @@ ion-icon {
     height: 120px;
     margin-top: -40px;
 }
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    margin-left: -3px;
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -11945,14 +11948,14 @@ h5,
 }
 
 #sidebar .custom-menu .btn.btn-primary {
-    background: #6749b9;
-    border-color: #6749b9;
+    background: #0A60B1;
+    border-color: #0A60B1;
 }
 
 #sidebar .custom-menu .btn.btn-primary:hover,
 #sidebar .custom-menu .btn.btn-primary:focus {
-    background: #6749b9 !important;
-    border-color: #6749b9 !important;
+    background: #0A60B1 !important;
+    border-color: #0A60B1 !important;
 }
 
 a[data-toggle="collapse"] {
