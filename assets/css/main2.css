@@ -16,6 +16,7 @@ ion-icon {
     height: 120px;
     margin-top: -40px;
 }
+
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     margin-left: -3px;
 }
@@ -11907,7 +11908,8 @@ h5,
     color: #000000;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
+/*@media (max-width: 736px) {*/
     #sidebar {
         margin-left: -250px;
     }
@@ -11917,15 +11919,18 @@ h5,
     }
 
     #sidebar .custom-menu {
-        margin-right: -50px !important;
+        margin-right: -55px !important;
         top: 10px !important;
+    }
+     .custom-menu {
+        visibility: visible;
     }
 }
 
 #sidebar .custom-menu {
     display: inline-block;
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 0;
     margin-right: -20px;
     -webkit-transition: 0.3s;
@@ -11948,14 +11953,15 @@ h5,
 }
 
 #sidebar .custom-menu .btn.btn-primary {
-    background: #0A60B1;
-    border-color: #0A60B1;
+    background: transparent;
+    border: 0;
 }
 
 #sidebar .custom-menu .btn.btn-primary:hover,
 #sidebar .custom-menu .btn.btn-primary:focus {
-    background: #0A60B1 !important;
-    border-color: #0A60B1 !important;
+    background: transparent !important;
+    border: 0 !important;
+    color: #fff !important;
 }
 
 a[data-toggle="collapse"] {
@@ -11988,8 +11994,8 @@ a[data-toggle="collapse"] {
 }
 
 .btn.btn-primary {
-    background: #866ec7;
-    border-color: #866ec7;
+    background: transparent;
+    border-color: transparent;
 }
 
 .btn.btn-primary:hover,
