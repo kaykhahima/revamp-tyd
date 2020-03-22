@@ -1,6 +1,19 @@
+.logo-view img {
+    width: 70px;
+}
+.logo-view p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logo-view {
+    display: none;
+}
+
 #news .container {
     padding-bottom: 0;
 }
+
 .link-effect a {
     color: #fff;
     padding: 8px 0;
@@ -42,6 +55,11 @@
     .home {
         height: 100vh;
     }
+
+    .logo-view {
+        display: block;
+    }
+
     .scroll {
         display: none;
     }

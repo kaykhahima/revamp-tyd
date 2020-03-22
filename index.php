@@ -21,7 +21,7 @@
         <!-- Wrapper -->
         <div id="wrapper">
             <div class="wrapper d-flex align-items-stretch text-center">
-                <nav id="sidebar">
+                <nav id="sidebar" class="sidebar">
                     <div class="custom-menu">
                         <button type="button" id="sidebarCollapse" class="btn btn-primary">
                             <i class="fa fa-bars"></i>
@@ -74,6 +74,10 @@
             <!-- Panel (Banner) -->
             <section class="panel banner right" id="home">
                 <div class="content color0 span-3-75 home">
+                    <div class="logo-view">
+                        <img src="images/SVG/logo-light.svg"> <br>
+                        <p class="text-white">TYD Innovation Incubator</p>
+                    </div>
                     <h1>
                         We envisage every<br> move to Ideological<br> transformation.
                     </h1>
@@ -129,7 +133,7 @@
                             <p>
                                 We work tirelessy to provide you the best work we can achieve.
                             </p>
-                            <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i>  View All</a></p>
+                            <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i> View All</a></p>
                         </div>
                     </div>
                     <div class="span-4">
@@ -219,9 +223,11 @@
                                     <p class="body-text link-effect mb-2"> After a long period of development and testing of Makini eFMIS, TYD is delighted to announce the launch of Makini system with effect from 15th September... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
                                     <p class="text-muted">15 September 2018</p>
                                 </div>
+                                <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i> View All</a></p>
                             </div>
+
                         </div>
-                        <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i>  View All</a></p>
+
                     </div>
                 </div>
             </section>
@@ -301,7 +307,7 @@
                     </div>
                 </div>
             </section>
-<!--
+            <!--
 
 
             <section class="panel color4-alt" id="map">
@@ -324,6 +330,7 @@
     <script src="assets/js/main2.js"></script>
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/main.js"></script>
+   <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
