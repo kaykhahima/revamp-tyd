@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="assets/css/custom.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -62,16 +59,19 @@
                         <div class="span-1-25" id="icons">
                             <ul class="icons mb-0 pt-4">
                                 <li>
-                                    <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                                    <a href="https://www.facebook.com/tydinnovation/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
+                                    <a href="https://www.instagram.com/tydinnovation/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
+                                    <a href="https://wa.me/255738717251" class="icon fa-whatsapp" target="_blank"><span class="label">WhatsApp</span></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="icon fa-envelope"><span class="label">Mail</span></a>
+                                    <a href="https://twitter.com/IncubatorTyd" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a>
+                                </li>
+                                   <li>
+                                    <a href="https://www.linkedin.com/company/tydinnovation/" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -92,7 +92,7 @@
                     <p class="py-2">
                         Our solely purpose is to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development.
                     </p>
-                    <p class="body-text link-effect"><a href="#services">Know More <i class="fa fa-arrow-right"></i></a></p>
+                    <p class="body-text link-effect"><a href="#mis-a-vis">Know More <i class="fa fa-arrow-right"></i></a></p>
                     <p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
                 </div>
             </section>
@@ -258,6 +258,27 @@
                     </div>
                 </div>
             </section>
+
+            <section class="panel color3-alt banner right" id="mis-a-vis">
+                <div class="content span-3-25 mis-a-vis">
+                    <div class="inner columns aligned">
+                        <div class="span-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4>Our Mission.</h4>
+                                        <p class="body-text mb-3"> We aim to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development. </p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h4>Our Vision.</h4>
+                                        <p class="body-text mb-3">Digital marketing allows you to strategically align your digital presence as a major driving force towards achieving your business goals. Let us help.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Panel -->
 
             <section class="panel color3" id="contact">
@@ -269,8 +290,8 @@
                             <p class="mb-2">TYD Innovation Incubator,</p>
                             <p class="mb-2">P.O. Box 25444,</p>
                             <p class="mb-3">Dar es Salaam, Tanzania.</p>
-                            <p class="mb-0" style="color: #fff">+255 735 717 253</p>
-                            <p class="mb-0" style="color: #fff">+255 713 518 549</p>
+                            <p class="mb-0" style="color: #fff"><a href="tel:+255735717253">+255 735 717 253</a></p>
+                            <p class="mb-0" style="color: #fff"><a href="tel:+255713518549">+255 713 518 549</a></p>
                             <p class="body-text text-muted mb-2">Mon - Fri 08AM - 10AM</p>
                         </div>
                     </div>
@@ -303,30 +324,31 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="col-md-2 offset-md-5">
-                                    <ul class="icons">
-                                        <li>
-                                            <a href="#map" class="icon fa-map-marker" style="font-size: 15px"><span class="label">Map</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="span-2-5">
+                        <div class="intro">
+                            <h6 class="mb-2">Get updates</h6>
+                            <p class="mb-2">Hey! Since you've scrolled this far, you might as well subscribe on our mailing list for new updates.</p>
+                            <form class="mb-0" method="post" action="#">
+                                <div class="field">
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="field pt-3">
+                                    <p class="body-text link-effect"><a href="#">Subscribe <i class="fa fa-arrow-right"></i></a></p>
+                                </div>
+                            </form>
+                            <h6 class="mb-2">Useful links:</h6>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Projects</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Courses</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Directions</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Contacts</a></p>
+                            <p class="mt-4 mb-0">&copy; <?php echo date('Y'); ?> TYD Innovation Incubator</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!--
-
-
-            <section class="panel color4-alt" id="map">
-                   <div class="span-4">
-                    <div class="container mt-5">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.4984791261786!2d39.25156871382914!3d-6.830676195063327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4a34a2b6c3af%3A0x586d3256c7115062!2sBungoni!5e0!3m2!1sen!2stz!4v1584748967323!5m2!1sen!2stz" width="600" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-            </section>
--->
-
         </div>
     </div>
 
@@ -338,7 +360,6 @@
     <script src="assets/js/main2.js"></script>
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.4.1/jquery.appear.min.js"></script>-->
     <script src="assets/js/custom.js"></script>
 </body>
 

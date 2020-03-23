@@ -1,6 +1,7 @@
 .logo-view img {
     width: 70px;
 }
+
 .logo-view p {
     font-size: 15px;
     font-weight: 600;
@@ -12,6 +13,15 @@
 
 #news .container {
     padding-bottom: 0;
+}
+
+#mis-a-vis p.body-text,
+#mis-a-vis h4 {
+    color: #000000 !important;
+}
+
+.mis-a-vis{
+    padding-left: 0 !important;
 }
 
 .link-effect a {
@@ -63,4 +73,13 @@
     .scroll {
         display: none;
     }
+    .mis-a-vis{
+    padding-left: 1.75rem !important;
+}
+
+
+
+;
+}
+
 }
