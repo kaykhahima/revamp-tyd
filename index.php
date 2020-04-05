@@ -1,90 +1,18 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>TYD Innovation Incubator</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main2.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
+<?php include 'includes/header.php'; ?>
 
 <body>
-
+<p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
         <!-- Wrapper -->
         <div id="wrapper">
-            <div class="wrapper d-flex align-items-stretch text-center">
-                <nav id="sidebar" class="sidebar">
-                    <div class="custom-menu">
-                        <button type="button" id="sidebarCollapse" class="btn btn-primary">
-                            <i class="fa fa-bars"></i>
-                            <span class="sr-only">Toggle Menu</span>
-                        </button>
-                    </div>
-                    <div class="p-4 pt-5" id="menu">
-                        <a href="index.php" class="logo"><img src="images/SVG/logo.svg"></a>
-                        <p class="text-dark">TYD Innovation Incubator</p>
-                        <ul class="list-unstyled components mt-5">
-                            <li class="active">
-                                <a href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="#work">Work</a>
-                            </li>
-                            <li>
-                                <a href="#news">News</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="span-1-25" id="icons">
-                            <ul class="icons mb-0 pt-4">
-                                <li>
-                                    <a href="https://www.facebook.com/tydinnovation/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/tydinnovation/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://wa.me/255738717251" class="icon fa-whatsapp" target="_blank"><span class="label">WhatsApp</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/IncubatorTyd" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a>
-                                </li>
-                                   <li>
-                                    <a href="https://www.linkedin.com/company/tydinnovation/" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+            <?php include 'includes/sidebar.php'; ?>
 
             <!-- Panel (Banner) -->
             <section class="panel banner right" id="home">
                 <div class="content color0 span-3-75 home">
                     <div class="logo-view">
-                        <img src="images/SVG/logo-light.svg"> <br>
+                        <img src="<?php echo BASE_URL;?>/images/SVG/logo-light.svg"> <br>
                         <p class="text-white">TYD Innovation Incubator</p>
                     </div>
                     <h1>
@@ -94,7 +22,6 @@
                         Our solely purpose is to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development.
                     </p>
                     <p class="body-text link-effect"><a href="#mis-a-vis">Know More <i class="fa fa-arrow-right"></i></a></p>
-                    <p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
                 </div>
             </section>
             <!--            services section-->
@@ -108,7 +35,7 @@
                                 <div class="col-md-6">
                                     <h4>Web Applications Development.</h4>
                                     <p class="body-text mb-3"> We build web applications based on your individual goals and objectives. We love nothing more than trying to achieve and developing your innovative ideas. </p>
-                                    <p class="body-text link-effect"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/web-applications-development.php">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Digital Marketing.</h4>
@@ -184,7 +111,7 @@
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
                                                 <h3 class="contents-title mb-2">Makini App</h3>
-                                                <p class="contents-text mb-2">Makini is an Electronic Financial Management Information System (eFMIS) for Small, Medium and Large Enterprises. Being a web-based Software, it also runs as a much secured Cloud Accounting Package designed to solve all issues that are faced by businesses.</p>
+                                                <p class="contents-text mb-2">Makini is an Electronic Financial Management Information System (eFMIS) for Small, Medium and Large Enterprises.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
                                         </a>
@@ -198,7 +125,7 @@
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
                                                 <h3 class="contents-title mb-2">Optimum Co. Ltd</h3>
-                                                <p class="contents-text mb-2">Optimum Company Limited deals with: Taxation, Financial and Accounting consultancy; Export and Import of used Cars from Japan; supply chain of clearing and forwarding industry; and Supply of Office Equipment.</p>
+                                                <p class="contents-text mb-2">Optimum Company Ltd. deals with Taxation, Financial and Accounting consultancy; Export and Import of used Cars from Japan.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
                                         </a>
@@ -251,8 +178,6 @@
                             <br><br>
                             Despite the availability of many high and Tertiary education learning institutions, Tanzania faces the challenge of delivery of hands-on skills that can prepare a candidate to acquire practical skills of the pursued knowledge. That situation creates even more unappealing environment for most graduates because they do not feel set to face the employment challenges.
                             <br><br>
-                            Different efforts have been initiated to curb the situation; amongst different initiatives are the Innovation Incubators. Although these Incubators are doing wonderful job to embrace the talented young, they are yet not enough to serve the purpose for all disciplines, thus a large population of people talented in different lines of knowledge are left out.
-                            <br><br>
                             Apart from technologies, high and tertiary learning institutions provide knowledge in Economics, Agriculture, Social works, Education, Nutrition, Business, Political Science, etc. TYD is going to take care of any other sector, given be the need of the society.
                             <br><br>
                             In due strategy of developing skills for youth, TAVODET conceived an idea of establishing a Start-up Innovation Incubator, which was named TYD Innovation Incubator, was established in 2017.</p>
@@ -272,7 +197,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <h4>Our Vision.</h4>
-                                        <p class="body-text mb-3">Digital marketing allows you to strategically align your digital presence as a major driving force towards achieving your business goals. Let us help.</p>
+                                        <p class="body-text mb-3">We aim to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development. </p>
                                     </div>
                                 </div>
                             </div>
@@ -282,86 +207,4 @@
             </section>
             <!-- Panel -->
 
-            <section class="panel color3" id="contact">
-                <div class="inner columns divided">
-                    <div class="span-1-5">
-                        <div class="intro">
-                            <h2 class="major">Contact us</h2>
-                            <p class="mb-2">Ex-Daya Building, Uhuru Street No. 23, Ilala Shariff Shamba.</p>
-                            <p class="mb-2">TYD Innovation Incubator,</p>
-                            <p class="mb-2">P.O. Box 25444,</p>
-                            <p class="mb-3">Dar es Salaam, Tanzania.</p>
-                            <p class="mb-0" style="color: #fff"><a href="tel:+255735717253">+255 735 717 253</a></p>
-                            <p class="mb-0" style="color: #fff"><a href="tel:+255713518549">+255 713 518 549</a></p>
-                            <p class="body-text text-muted mb-2">Mon - Fri 08AM - 10AM</p>
-                        </div>
-                    </div>
-                    <div class="span-3-25">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h4 class="mt-5">Get in touch.</h4>
-                                    <p class="mb-2">Send us a quick message</p>
-                                </div>
-                                <div class="col-md-10">
-                                    <form method="post" action="#">
-                                        <div class="field half">
-                                            <input type="text" name="name" id="name" placeholder="Name" />
-                                        </div>
-                                        <div class="field half">
-                                            <input type="email" name="email" id="email" placeholder="Email" />
-                                        </div>
-                                        <div class="field">
-                                            <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
-                                        </div>
-                                        <div class="field half">
-                                            <input type="checkbox" id="demo-human" name="demo-human" class="color2" />
-                                            <label for="demo-human">
-                                                <p class="body-text mt-1">Not a robot</p>
-                                            </label>
-                                        </div>
-                                        <div class="field pt-1">
-                                            <p class="body-text link-effect"><a href="#">Send Message <i class="fa fa-arrow-right"></i></a></p>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span-2-5">
-                        <div class="intro">
-                            <h6 class="mb-2">Get updates</h6>
-                            <p class="mb-2">Hey! Since you've scrolled this far, you might as well subscribe on our mailing list for new updates.</p>
-                            <form class="mb-0" method="post" action="#">
-                                <div class="field">
-                                    <input type="email" name="email" id="email" placeholder="Email" />
-                                </div>
-                                <div class="field pt-3">
-                                    <p class="body-text link-effect"><a href="#">Subscribe <i class="fa fa-arrow-right"></i></a></p>
-                                </div>
-                            </form>
-                            <h6 class="mb-2">Useful links:</h6>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Projects</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Courses</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Directions</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Contacts</a></p>
-                            <p class="mt-4 mb-0">&copy; <?php echo date('Y'); ?> TYD Innovation Incubator</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <!-- Scripts -->
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main2.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/custom.js"></script>
-</body>
-
-</html>
+<?php include 'includes/footer.php';?>
