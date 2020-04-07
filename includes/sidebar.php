@@ -7,11 +7,11 @@
                         </button>
                     </div>
                     <div class="p-4 pt-5" id="menu">
-                        <a href="<?php echo BASE_URL;?>/index.php" class="logo"><img src="<?php echo BASE_URL;?>/images/SVG/logo.svg"></a>
+                        <a href="<?php echo BASE_URL;?>/home" class="logo"><img src="<?php echo BASE_URL;?>/images/SVG/logo.svg"></a>
                         <p class="text-dark">TYD Innovation Incubator</p>
                         <ul class="list-unstyled components mt-5" id="menu-list">
                             <li class="active">
-                                <a href="#home">Home</a>
+                                <a href="<?php echo BASE_URL;?>/#home">Home</a>
                             </li>
                             <li>
                                 <a href="#services">Services</a>

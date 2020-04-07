@@ -33,24 +33,24 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h4>Web Applications Development.</h4>
+                                    <h4>Web Applications.</h4>
                                     <p class="body-text mb-3"> We build web applications based on your individual goals and objectives. We love nothing more than trying to achieve and developing your innovative ideas. </p>
-                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/web-applications-development.php">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/web-applications">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h4>Digital Marketing.</h4>
-                                    <p class="body-text mb-3">Digital marketing allows you to strategically align your digital presence as a major driving force towards achieving your business goals. Let us help.</p>
-                                    <p class="body-text link-effect"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <h4>Website Development.</h4>
+                                    <p class="body-text mb-3">We create engaging and innovate website designs that your customer can’t stop talking about. Bespoke, E-commerce, Business websites, all of it.</p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/website-development">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Web Hosting.</h4>
                                     <p class="body-text mb-3">Whether you have a low traffic, brand new blog or own a popular business site, we've got you covered. We have a blazing fast web hosting solution perfect for you. </p>
-                                    <p class="body-text link-effect"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/web-hosting">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Practical Courses.</h4>
                                     <p class="body-text mb-3">Increase your practical skills. Whether you're a beginner looking to make a career switch or an experienced professional wanting to improve your skill set.</p>
-                                    <p class="body-text link-effect"><a href="#">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/practical-courses">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -75,56 +75,56 @@
                     <div class="span-4">
                         <div class="container">
                             <div class="row no-gutters">
-                                <div class="col-md-6 pb-4">
-                                    <div class="contents">
+                                <div class="col-md-5 pb-4">
+                                    <div class="contents rounded">
                                         <a href="#" target="_blank">
-                                            <div class="contents-overlay"></div>
-                                            <img class="contents-image" src="images/showcase/darasa.png">
+                                            <div class="contents-overlay rounded"></div>
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/darasa.png">
                                             <div class="contents-details fadeIn-bottom">
-                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h3 class="contents-title mb-2">Darasa CMS</h3>
+                                                <h5 class="mb-2"><span class="badge badge-light">CMS</span></h5>
+                                                <h5 class="contents-title text-uppercase mb-1">Darasa CMS</h5>
                                                 <p class="contents-text mb-2">Darasa CMS is a Master class focused on fully utilisation of digital facilitations among which are: texts, graphics, audios, videos, animations, and simulations.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="contents">
+                                <div class="col-md-5">
+                                    <div class="contents rounded">
                                         <a href="#" target="_blank">
-                                            <div class="contents-overlay"></div>
-                                            <img class="contents-image" src="images/showcase/alpha.png">
+                                            <div class="contents-overlay rounded"></div>
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/alpha.png">
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h3 class="contents-title mb-2">Alpha Hostels</h3>
+                                                <h5 class="contents-title text-uppercase mb-1">Alpha Hostels</h5>
                                                 <p class="contents-text mb-2">Alpha ni “Hostel” za Kisasa zenye Kukidhi Mahitaji ya malazi kwa ajili ya wanafunzi wanaosoma kwenye taasisi mbalimbali za Elimu nchini Tanzania.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="contents">
+                                <div class="col-md-5">
+                                    <div class="contents rounded">
                                         <a href="#" target="_blank">
-                                            <div class="contents-overlay"></div>
-                                            <img class="contents-image" src="images/showcase/makini.png">
+                                            <div class="contents-overlay rounded"></div>
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/makini.png">
                                             <div class="contents-details fadeIn-bottom">
-                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h3 class="contents-title mb-2">Makini App</h3>
+                                                <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
+                                                <h5 class="contents-title text-uppercase mb-1">Makini App</h5>
                                                 <p class="contents-text mb-2">Makini is an Electronic Financial Management Information System (eFMIS) for Small, Medium and Large Enterprises.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="contents">
+                                <div class="col-md-5">
+                                    <div class="contents rounded">
                                         <a href="#" target="_blank">
-                                            <div class="contents-overlay"></div>
-                                            <img class="contents-image" src="images/showcase/optimum.png">
+                                            <div class="contents-overlay rounded"></div>
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/optimum.png">
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h3 class="contents-title mb-2">Optimum Co. Ltd</h3>
+                                                <h5 class="contents-title text-uppercase mb-1">Optimum Co. Ltd</h5>
                                                 <p class="contents-text mb-2">Optimum Company Ltd. deals with Taxation, Financial and Accounting consultancy; Export and Import of used Cars from Japan.</p>
                                                 <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
                                             </div>
@@ -171,7 +171,7 @@
 
             <section class="panel color3-alt" id="about">
                 <div class="inner columns aligned">
-                    <div class="span-4">
+                    <div class="span-4 text-justify">
                         <p class="mb-0">Know</p>
                         <h2 class="major">About us</h2>
                         <p class="body-text mb-3">Mentorship stands as a bridge towards letting people understand who they are, what they are capable of, and inspiring them to identify their opportunities and take them aboard to create their own employment or rather shape them become very competent to their carrier, hence easily sold to the employment market.
@@ -186,7 +186,7 @@
             </section>
 
             <section class="panel color3-alt banner right" id="mis-a-vis">
-                <div class="content span-3-25 mis-a-vis">
+                <div class="content span-3-25 mis-a-vis text-justify">
                     <div class="inner columns aligned">
                         <div class="span-3">
                             <div class="container">

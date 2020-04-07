@@ -88,6 +88,16 @@
     transform: scaleX(1);
 }
 
+.btn-sm, .btn-group-sm > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+#courses img {
+    width: 50px;
+}
+
 @media screen and (max-width: 992px) {
 
     .home {
