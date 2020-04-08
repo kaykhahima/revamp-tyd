@@ -8,66 +8,22 @@
         <div id="wrapper">
             <?php include '../includes/sidebar.php'; ?>
             <!--            services section-->
-            <section class="panel color2" id="services">
-                <div class="inner columns">
-                    <div class="span-1-75">
-                        <h2 class="major">Website Development.</h2>
-                        <p class="body-text">We build beautiful and engaging website designs that your customers cant stop talking about.</p>
-                        <p class="body-text">Your online presence matters alot.</p>
-                        <p class="body-text">We work very hard to understand your goals and objectives, and by using different technologies, we provide you with the best websites that meets you and your customers' demands.</p>
-                        <p><i class="fa fa-tags"></i> Other services: <a href="<?php echo BASE_URL;?>/services/web-applications"> Web Application</a>, <a href="<?php echo BASE_URL;?>/services/web-hosting"> Web Hosting</a>, <a href="<?php echo BASE_URL;?>/services/practical-courses"> Practical Courses</a></p>
-
-                    </div>
-                    <div class="span-4">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h6>What we offer.</h6>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card rounded text-dark mb-2">
-                                        <div class="card-body p-4">
-                                            <h5 class="card-title major text-danger">Bespoke Websites</h5>
-                                            <p class="card-text">Need a unique Website with special customized features for you? Don't worry. We design beautiful websites taylored specifically for you to stand out within the crowd.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card rounded text-dark mb-2">
-                                        <div class="card-body p-4">
-                                            <h5 class="card-title major text-danger">Business Website</h5>
-                                            <p class="card-text">Increase your business presence by introducing it online. Since your business is great, so should your online presence. Let's help you achieve your goals.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card rounded text-dark mb-2">
-                                        <div class="card-body p-4">
-                                            <h5 class="card-title major text-danger">Portfolio Site</h5>
-                                            <p class="card-text">Need a website just to showcase your stuff? Here we are. Bring your idea into life and expand your skills and services online with a clean, simple and intuitive website.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card rounded text-dark mb-2">
-                                        <div class="card-body p-4">
-                                            <h5 class="card-title major text-danger">Responsive Design</h5>
-                                            <p class="card-text">Mobiles are now smart, just as your webiste should also be. We build it to work seamlessly across all platforms and broswers, yes, including the lazy Internet Explorer.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <section class="panel color4-alt" id="work">
+                <div class="inner columns divided">
+                    <div class="span-1-5">
+                        <div class="intro">
+                            <h2 class="major">Our Projects.</h2>
+                            <p>
+                                We work tirelessy to provide you the best work we can achieve.
+                            </p>
                         </div>
                     </div>
-                    <div class="span-4 pl-lg-5">
+                    <div class="span-6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h4 class="major">Related Projects:</h4>
-                                </div>
-                                <div class="col-md-12">
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-3">
                                             <div class="contents rounded">
                                                 <a href="https://optimum.or.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                                     <div class="contents-overlay rounded"></div>
@@ -81,7 +37,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-3">
                                             <div class="contents rounded">
                                                 <a href="https://alphahostels.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                                     <div class="contents-overlay rounded"></div>
@@ -94,7 +50,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-3">
                                             <div class="contents rounded">
                                                 <a href="https://tabco.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                                     <div class="contents-overlay rounded"></div>
@@ -107,7 +63,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-3">
                                             <div class="contents rounded">
                                                 <a href="https://techniks.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                                     <div class="contents-overlay rounded"></div>
@@ -120,17 +76,64 @@
                                                 </a>
                                             </div>
                                         </div>
+                                        <div class="col-md-3">
+                                            <div class="contents rounded">
+                                                <a href="https://msomi.ac.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
+                                                    <div class="contents-overlay rounded"></div>
+                                                    <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/msomi.png">
+                                                    <div class="contents-details fadeIn-bottom">
+                                                        <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
+                                                        <h5 class="contents-title text-uppercase mb-1">Msomi App <i class="fa fa-external-link"></i></h5>
+                                                        <p class="contents-text mb-1">Msomi is used to register students enrolled for a particular school intake and thus help in the analysis of enrolled students.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="contents rounded">
+                                                <a href="https://makini.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
+                                                    <div class="contents-overlay rounded"></div>
+                                                    <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/makini.png">
+                                                    <div class="contents-details fadeIn-bottom">
+                                                        <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
+                                                        <h5 class="contents-title text-uppercase mb-1">Makini App <i class="fa fa-external-link"></i></h5>
+                                                        <p class="contents-text mb-1">Makini is an Electronic Financial Management Information System (eFMIS) for Small - Large Enterprises.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="contents rounded">
+                                                <a href="https://uti.ac.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
+                                                    <div class="contents-overlay rounded"></div>
+                                                    <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/uti.png">
+                                                    <div class="contents-details fadeIn-bottom">
+                                                        <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
+                                                        <h5 class="contents-title text-uppercase mb-1">UTI <i class="fa fa-external-link"></i></h5>
+                                                        <p class="contents-text mb-1">UTI's website is embedded with an integrated web based system composed of eLibrary, Financial Management System, Multimedia Teaching Content.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="contents rounded">
+                                                <a href="https://darasa.ac.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
+                                                    <div class="contents-overlay rounded"></div>
+                                                    <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/darasa.png">
+                                                    <div class="contents-details fadeIn-bottom">
+                                                        <h5 class="mb-2"><span class="badge badge-light">CMS</span></h5>
+                                                        <h5 class="contents-title text-uppercase mb-1">Darasa CMS <i class="fa fa-external-link"></i></h5>
+                                                        <p class="contents-text mb-1">Darasa CMS is a Master class focused on fully utilisation of digital facilitations among which are: texts, graphics and simulations.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <p class="body-text link-effect mt-2 mb-0"><a href="<?php echo BASE_URL;?>/work/all"><i class="fa fa-plus-circle"></i> View All Projects</a></p>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </section>
 
             <!-- Panel -->

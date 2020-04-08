@@ -69,7 +69,7 @@
                             <p>
                                 We work tirelessy to provide you the best work we can achieve.
                             </p>
-                            <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i> View All</a></p>
+                            <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/work/all"><i class="fa fa-plus-circle"></i> View All Projects</a></p>
                         </div>
                     </div>
                     <div class="span-4">
