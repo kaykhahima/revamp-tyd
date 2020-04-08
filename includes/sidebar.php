@@ -26,7 +26,7 @@
                                 <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="#contact">Contacts</a>
                             </li>
                         </ul>
                         <div class="span-1-25" id="icons">

@@ -57,10 +57,10 @@
                                 </div>
                             </form>
                             <h6 class="mb-2">Useful links:</h6>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Projects</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Courses</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Directions</a></p>
-                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#"> Contacts</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="<?php echo BASE_URL;?>/work/all"> Projects</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="<?php echo BASE_URL;?>/services/practical-courses"> Courses</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a target="_blank" href="https://www.google.com/maps/place/TYD+Innovation+Incubator/@-6.8228139,39.2737458,685m/data=!3m2!1e3!4b1!4m5!3m4!1s0x185c4ba97b21ce1f:0x91c398b7734428b9!8m2!3d-6.8228139!4d39.2759345?hl=en-US"> Directions</a></p>
+                            <p class="mb-2 link-effect"><i class="fa fa-angle-right"></i><a href="#contact"> Contacts</a></p>
                             <p class="mt-4 mb-0">&copy; <?php echo date('Y'); ?> TYD Innovation Incubator</p>
                         </div>
                     </div>

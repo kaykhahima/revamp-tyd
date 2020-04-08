@@ -64,6 +64,7 @@
             <section class="panel color2" id="courses">
                 <div class="inner columns">
                     <div class="span-1-75">
+                       <p class="mb-0">Our</p>
                         <h2 class="major">Practical Courses.</h2>
                         <p class="body-text">Whether you're a beginner looking to make a career switch to tech or an experienced professional wanting to improve your skill set, we can help.</p>
                         <p><i class="fa fa-tags"></i> Other services: <a href="<?php echo BASE_URL;?>/services/web-applications"> Web Application</a>, <a href="<?php echo BASE_URL;?>/services/website-development"> Website Development</a>, <a href="<?php echo BASE_URL;?>/services/web-hosting"> Web Hosting</a></p>
@@ -74,9 +75,6 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <h6>Our Practical Courses:</h6>
-                                        </div>
                                         <div class="col-md-3">
                                             <div class="card rounded text-dark mb-2">
                                                 <div class="card-body p-3">
