@@ -16,7 +16,7 @@
                     <div class="span-5">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
@@ -33,7 +33,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
