@@ -76,59 +76,55 @@
                     </div>
                     <div class="span-4">
                         <div class="container">
-                            <div class="row no-gutters">
-                                <div class="col-md-5 pb-4">
+                            <div class="row">
+                                <div class="col-md-5">
                                     <div class="contents rounded">
-                                        <a href="#" target="_blank">
+                                        <a href="https://darasa.ac.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                             <div class="contents-overlay rounded"></div>
                                             <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/darasa.png">
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">CMS</span></h5>
-                                                <h5 class="contents-title text-uppercase mb-1">Darasa CMS</h5>
-                                                <p class="contents-text mb-2">Darasa CMS is a Master class focused on fully utilisation of digital facilitations among which are: texts, graphics, audios, videos, animations, and simulations.</p>
-                                                <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                                <h5 class="contents-title text-uppercase mb-1">Darasa CMS <i class="fa fa-external-link"></i></h5>
+                                                <p class="contents-text mb-1">Darasa CMS is a Master class focused on fully utilisation of digital facilitations among which are: texts, graphics and simulations.</p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="contents rounded">
-                                        <a href="#" target="_blank">
+                                        <a href="https://tabco.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                             <div class="contents-overlay rounded"></div>
-                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/alpha.png">
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/tabco.png">
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h5 class="contents-title text-uppercase mb-1">Alpha Hostels</h5>
-                                                <p class="contents-text mb-2">Alpha ni “Hostel” za Kisasa zenye Kukidhi Mahitaji ya malazi kwa ajili ya wanafunzi wanaosoma kwenye taasisi mbalimbali za Elimu nchini Tanzania.</p>
-                                                <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                                <h5 class="contents-title text-uppercase mb-1">TABCO <i class="fa fa-external-link"></i></h5>
+                                                <p class="contents-text mb-1">Mashindano ya Utangazaji wa Redio na Luninga. Lengo ni kukufanya uwe mjuzi katika fani ya Uandishi wa Habari na Utangazaji. </p>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="contents rounded">
-                                        <a href="#" target="_blank">
+                                        <a href="https://uti.ac.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
+                                            <div class="contents-overlay rounded"></div>
+                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/uti.png">
+                                            <div class="contents-details fadeIn-bottom">
+                                                <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
+                                                <h5 class="contents-title text-uppercase mb-1">UTI <i class="fa fa-external-link"></i></h5>
+                                                <p class="contents-text mb-1">UTI's website is embedded with an integrated web based system composed of eLibrary, Financial Management System, Multimedia Teaching Content.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="contents rounded">
+                                        <a href="https://makini.co.tz/" target="_blank" data-toggle="tooltip" data-placement="top" title="Go to Project">
                                             <div class="contents-overlay rounded"></div>
                                             <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/makini.png">
                                             <div class="contents-details fadeIn-bottom">
                                                 <h5 class="mb-2"><span class="badge badge-light">Web App</span></h5>
-                                                <h5 class="contents-title text-uppercase mb-1">Makini App</h5>
-                                                <p class="contents-text mb-2">Makini is an Electronic Financial Management Information System (eFMIS) for Small, Medium and Large Enterprises.</p>
-                                                <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="contents rounded">
-                                        <a href="#" target="_blank">
-                                            <div class="contents-overlay rounded"></div>
-                                            <img class="contents-image rounded" src="<?php echo BASE_URL;?>/images/showcase/optimum.png">
-                                            <div class="contents-details fadeIn-bottom">
-                                                <h5 class="mb-2"><span class="badge badge-light">Website Development</span></h5>
-                                                <h5 class="contents-title text-uppercase mb-1">Optimum Co. Ltd</h5>
-                                                <p class="contents-text mb-2">Optimum Company Ltd. deals with Taxation, Financial and Accounting consultancy; Export and Import of used Cars from Japan.</p>
-                                                <p class="link-effect"><a href="#">View Project <i class="fa fa-arrow-right"></i></a></p>
+                                                <h5 class="contents-title text-uppercase mb-1">Makini App <i class="fa fa-external-link"></i></h5>
+                                                <p class="contents-text mb-1">Makini is an Electronic Financial Management Information System (eFMIS) for Small - Large Enterprises.</p>
                                             </div>
                                         </a>
                                     </div>
