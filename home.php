@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <body>
-<p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
+    <p class="scroll body-text"><a href="#">Scroll <i class="fa fa-arrow-right"></i></a></p>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
         <!-- Wrapper -->
@@ -21,7 +21,7 @@
                     <p class="py-2">
                         Our solely purpose is to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development.
                     </p>
-                    <p class="body-text link-effect"><a href="#mis-a-vis">Know More <i class="fa fa-arrow-right"></i></a></p>
+                    <p class="body-text link-effect"><a href="#about">Know More <i class="fa fa-arrow-right"></i></a></p>
                 </div>
             </section>
             <!--            services section-->
@@ -138,34 +138,74 @@
             </section>
             <!--            news-->
             <section class="panel color2-alt" id="news">
-                <div class="inner columns aligned">
-                    <div class="span-4">
-                        <p class="mb-0">Read our</p>
-                        <h2 class="major">News</h2>
-                        <div class="container">
+                <div class="inner columns divided">
+                    <div class="span-1-75">
+                        <p class="mb-0">Our latest</p>
+                        <h2 class="major">News &amp; Events.</h2>
+                        <p>
+                            Never miss out on anything. Be up-to-date with us by reading our latest news and events.
+                        </p>
+                        <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/news/all"><i class="fa fa-plus-circle"></i> View All</a></p>
+                    </div>
+                    <div class="span-5">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <h4>Good news for fitness centers (Gym) operators.</h4>
-                                    <p class="body-text link-effect mb-2"> With the increasingly awareness of health programs, Fitness centres (Gyms) have been one of the facilities to perform body therapies which most people attend as per their planned timetables. However, Gyms operations have been a big challenge to most service providers when... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="text-muted">24 October 2018</p>
+                                <div class="col">
+                                    <div class="post-module">
+                                        <div class="thumbnail">
+                                            <div class="date">
+                                                <div class="day">09</div>
+                                                <div class="month">Sep</div>
+                                            </div>
+                                            <img src="<?php echo BASE_URL;?>/images/news/andela.png" />
+                                        </div>
+                                        <div class="post-content">
+                                            <h1 class="title">Andela Tech Leaders Program</h1>
+                                            <h2 class="sub_title">Nurturing good leadership to technology-based startups.</h2>
+                                            <p class="description mb-1">We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of...</p>
+                                            <div class="post-date mt-2"><span><a href="#">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <h4>Tech leaders program.</h4>
-                                    <p class="body-text link-effect mb-2"> We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="text-muted">09 September 2019</p>
+                                <div class="col">
+                                    <div class="post-module">
+                                        <div class="thumbnail">
+                                            <div class="date">
+                                                <div class="day">21</div>
+                                                <div class="month">Jul</div>
+                                            </div>
+                                            <img src="<?php echo BASE_URL;?>/images/news/1st-round.png" />
+                                        </div>
+                                        <div class="post-content">
+                                            <h1 class="title">1st Round of Innovators Presentations</h1>
+                                            <h2 class="sub_title">Mr. Daniel Magwai representing his innovative idea.</h2>
+                                            <p class="description mb-1">TYD Innovation Incubator has been encouraging innovators and all those who face any challenges that they think they have an idea of a solution, but they...</p>
+                                            <div class="post-date mt-2"><span><a href="#">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <h4>Official launch of Makini System.</h4>
-                                    <p class="body-text link-effect mb-2"> After a long period of development and testing of Makini eFMIS, TYD is delighted to announce the launch of Makini system with effect from 15th September... <a href="#">Read More <i class="fa fa-arrow-right"></i></a></p>
-                                    <p class="text-muted">15 September 2018</p>
+                                <div class="col">
+                                    <div class="post-module">
+                                        <div class="thumbnail">
+                                            <div class="date">
+                                                <div class="day">20</div>
+                                                <div class="month">Mar</div>
+                                            </div>
+                                            <img src="<?php echo BASE_URL;?>/images/news/introducing-tyd-website.png" />
+                                        </div>
+                                        <div class="post-content">
+                                            <h1 class="title">Introducing TYD's Website</h1>
+                                            <h2 class="sub_title">TYD Innovation incubator has officially launched its website.</h2>
+                                            <p class="description mb-1">TYD Innovation incubator has launched its website that among other things, it will be used to disseminate information about...</p>
+                                            <div class="post-date mt-2"><span><a href="#">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="body-text link-effect"><a href="#"><i class="fa fa-plus-circle"></i> View All</a></p>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
+
             </section>
             <!--               about-->
 
@@ -184,6 +224,7 @@
                     </div>
                 </div>
             </section>
+            <!--
 
             <section class="panel color3-alt banner right" id="mis-a-vis">
                 <div class="content span-3-25 mis-a-vis text-justify">
@@ -205,6 +246,7 @@
                     </div>
                 </div>
             </section>
+-->
             <!-- Panel -->
 
-<?php include 'includes/footer.php';?>
+            <?php include 'includes/footer.php';?>

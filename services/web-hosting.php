@@ -19,12 +19,12 @@
 
                     </div>
                     <div class="span-5">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h6>Our Plans:</h6>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col">
                                     <div class="card rounded text-dark mb-2">
                                         <div class="card-body p-3">
                                             <h5 class="card-title mb-1 text-danger">Kigali</h5>
@@ -43,7 +43,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col">
                                     <div class="card rounded text-dark mb-2">
                                         <div class="card-body p-3">
                                             <h5 class="card-title mb-1 text-danger">Nairobi</h5>
@@ -62,7 +62,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col">
                                     <div class="card rounded text-dark mb-2">
                                         <div class="card-body p-3">
                                             <h5 class="card-title mb-1 text-danger">Dodoma</h5>
@@ -81,7 +81,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col">
                                     <div class="card rounded text-dark mb-2">
                                         <div class="card-body p-3">
                                             <h5 class="card-title mb-1 text-danger">Cape Town</h5>
