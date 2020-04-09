@@ -292,6 +292,12 @@ body {
 .container .info span .fa {
   color: #e74c3c;
 }
+.cover-image .post-module, .cover-image .thumbnail {
+    height: auto !important;
+}
+.cover-image img {
+    width: 100% !important;
+}
 .news-content {
     word-wrap: break-word;
 }

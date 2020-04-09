@@ -66,18 +66,18 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </div>
+            </div>
+            </div>
 
-    <!-- Scripts -->
+            <!-- Scripts -->
 
-    <script src="<?php echo BASE_URL;?>/assets/js/jquery.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/popper.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/main2.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/skel.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/main.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/custom.js"></script>
-</body>
+            <script src="<?php echo BASE_URL;?>/assets/js/jquery.min.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/popper.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/bootstrap.min.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/main2.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/skel.min.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/main.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/custom.js"></script>
+            </body>
 
-</html>
+            </html>

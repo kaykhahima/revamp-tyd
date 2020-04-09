@@ -6,7 +6,9 @@
     <div id="page-wrapper">
         <!-- Wrapper -->
         <div id="wrapper">
-            <?php include 'includes/sidebar.php'; ?>
+            <?php
+            include 'includes/sidebar.php';
+            ?>
 
             <!-- Panel (Banner) -->
             <section class="panel banner right" id="home">
@@ -150,7 +152,7 @@
                     <div class="span-5">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col mb-2">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
@@ -167,7 +169,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col mb-2">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
@@ -184,7 +186,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col mb-2">
+                                <div class="col-lg-4 mb-2">
                                     <div class="post-module">
                                         <div class="thumbnail">
                                             <div class="date">
