@@ -3684,7 +3684,7 @@ button:disabled,
     #menu {
         padding-top: 3rem !important;
         background: #fff;
-        height: 100vh;
+        min-height: 100vh;
         width: inherit;
         z-index: 1000000;
         position: fixed;
