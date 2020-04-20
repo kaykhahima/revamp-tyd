@@ -11,7 +11,7 @@ ion-icon {
     font-size: 13px;
     color: #ffffff;
 }
-#about p, #about h2 {
+#about p, #about h2, #about h4 {
     color: #000000 !important;
 }
 #about h2.major:after{
@@ -62,7 +62,7 @@ ion-icon {
   position: relative;
   width: 90%;
   max-width: 400px;
-  margin: auto;
+/*  margin: auto;*/
   overflow: hidden;
 }
 

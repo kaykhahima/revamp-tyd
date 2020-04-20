@@ -27,8 +27,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 text-justify news-content">
+                                <div id="data" class="col-md-6 text-justify news-content">
                                     <p class="body-text  mb-2">We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of nurturing good leadership to start-ups that are based on technology, on ensuring that that they initiate, manage and yield from their innovations.</p>
+
+                                    <p class="body-text  mb-2">Further, we would like to thank SeedStars Tanzania (SeedSpace) for hosting such a wonderful program and for considering TYD as one of the Key Players who is always ready to solve the challenges that most of our societies face, Tanzania in particular.</p>
 
                                     <p class="body-text  mb-2">Further, we would like to thank SeedStars Tanzania (SeedSpace) for hosting such a wonderful program and for considering TYD as one of the Key Players who is always ready to solve the challenges that most of our societies face, Tanzania in particular.</p>
 

@@ -52,7 +52,7 @@
                                 <div class="col-md-6">
                                     <h4>Practical Courses.</h4>
                                     <p class="body-text mb-3">Increase your practical skills. Whether you're a beginner looking to make a career switch or an experienced professional wanting to improve your skill set.</p>
-                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/practical-courses">Learn More <i class="fa fa-arrow-right"></i></a></p>
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/services/courses">Learn More <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                             <p>
                                 We work tirelessy to provide you the best work we can achieve.
                             </p>
-                            <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/work/all"><i class="fa fa-plus-circle"></i> View All Projects</a></p>
+                            <p class="body-text link-effect display-lg"><a href="<?php echo BASE_URL;?>/work/all"><i class="fa fa-plus-circle"></i> View All Projects</a></p>
                         </div>
                     </div>
                     <div class="span-4">
@@ -129,6 +129,9 @@
                                         </a>
                                     </div>
                                 </div>
+                                <div class="col-md-5 pt-3 display-sm">
+                                    <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/work/all"><i class="fa fa-plus-circle"></i> View All Projects</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,7 +146,7 @@
                         <p>
                             Never miss out on anything. Be up-to-date with us by reading our latest news and events.
                         </p>
-                        <p class="body-text link-effect"><a href="<?php echo BASE_URL;?>/news/all"><i class="fa fa-plus-circle"></i> View All</a></p>
+                        <p class="body-text link-effect display-lg"><a href="<?php echo BASE_URL;?>/news/all"><i class="fa fa-plus-circle"></i> View All</a></p>
                     </div>
                     <div class="span-5">
                         <div class="container-fluid">
@@ -161,7 +164,7 @@
                                             <h1 class="title">Andela Tech Leaders Program</h1>
                                             <h2 class="sub_title">Nurturing good leadership to technology-based startups.</h2>
                                             <p class="description mb-1">We are delighted to have been invited for Andela Tech Leaders Program. The program was conducted from 17th to 21st June, 2019 for the purpose of...</p>
-                                            <div class="post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/1">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                            <div class="description post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/1">Read More <i class="fa fa-arrow-right"></i></a></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -178,7 +181,7 @@
                                             <h1 class="title">1st Round of Innovators Presentations</h1>
                                             <h2 class="sub_title">Mr. Daniel Magwai representing his innovative idea.</h2>
                                             <p class="description mb-1">TYD Innovation Incubator has been encouraging innovators and all those who face any challenges that they think they have an idea of a solution, but they...</p>
-                                            <div class="post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/2">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                            <div class="description post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/2">Read More <i class="fa fa-arrow-right"></i></a></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -195,10 +198,11 @@
                                             <h1 class="title">Introducing TYD's Website</h1>
                                             <h2 class="sub_title">TYD Innovation incubator has officially launched its website.</h2>
                                             <p class="description mb-1">TYD Innovation incubator has launched its website that among other things, it will be used to disseminate information about...</p>
-                                            <div class="post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/3">Read More <i class="fa fa-arrow-right"></i></a></span></div>
+                                            <div class="description post-date mt-2"><span><a href="<?php echo BASE_URL;?>/news/3">Read More <i class="fa fa-arrow-right"></i></a></span></div>
                                         </div>
                                     </div>
                                 </div>
+                                <p class="pt-3 body-text link-effect display-sm"><a href="<?php echo BASE_URL;?>/news/all"><i class="fa fa-plus-circle"></i> View All</a></p>
                             </div>
                         </div>
                     </div>
@@ -215,20 +219,105 @@
                 </div>
 
             </section>
+
+            <section class="panel bg-primary" id="testimonial">
+                <div class="inner columns divided">
+                    <div class="span-1-25">
+                        <p class="mb-0">Our</p>
+                        <h2 class="major">Testimonials</h2>
+                        <p class="mb-0">What our clients are saying.</p>
+                    </div>
+                    <div class="span-2-75">
+                        <div class="container">
+                            <div class="row blog">
+                                <div class="col-md-12">
+                                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                                            <li data-target="#blogCarousel" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <!-- Carousel items -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="text-center">
+                                                    <img src="http://tyd.or.tz/img/testimonials/1540719923.jpg" class="rounded" alt="">
+                                                    <h5 class="my-1">Mr. Emmanuel Slaa</h5>
+                                                    <p class="mb-0">Accountant - Union of Training Institutions (UTI)
+                                                    </p>
+                                                    <div class="bordered"></div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <p class="body-text my-2">As a growing Institution, we felt that we needed an online accounting package that could grow with us. With makini’s software, we are able to choose the applications that we need, whereas with other accounting packages, we were paying for things that we would never use. Makini cuts out the jargon. Now we are able to manage our financial records from any location. We can access up-to-date figures from the office or remotely. For untrained end-users, the user interface is friendly. Makini is an intuitive accounting package that has the feel of a robust, modern software package.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <div class="text-center">
+                                                    <img src="http://tyd.or.tz/img/testimonials/1576936110.jpg" class="rounded" alt="">
+                                                    <h5 class="my-1">Mr. Erick Steven</h5>
+                                                    <p class="mb-0">Operations Officer - EMJEY COURIERS</p>
+                                                    <div class="bordered"></div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <p class="body-text my-2">Technology has made it easier and efficient for companies to run business in a competitive environment. As a growing logistics and courier company, an efficient website was crucial for us to attract more customers and for us to reach wider audiences but also as a marketing tool. TYD did an amazing job for our project, the level of communication was great and we are happy with the final product. I would urge everyone who is keen to quality and efficient services to try TYD Innovation.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <div class="text-center">
+                                                    <img src="http://tyd.or.tz/img/testimonials/1537012279.jpg" class="rounded" alt="">
+                                                    <h5 class="my-1">Mr. Rajabu Mbarouk</h5>
+                                                    <p class="mb-0">Managing Partner - Optimum Co. Ltd</p>
+                                                    <div class="bordered"></div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <p class="body-text my-2">It has become so much easier and efficient to run business in a corporate environment. We thank TYD Innovation Incubator by ensuring that Optimum Co. Ltd is one of the best perfoming companies in Cyberspace. With the high level of agility and very attentive team, TYD has provided us with affordable yet efficient solution. I urge any new business to try our experience.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
             <!--               about-->
 
             <section class="panel color3-alt" id="about">
                 <div class="inner columns">
-                    <div class="span-4 text-justify">
+                    <div class="span-4-5 text-justify">
                         <p class="mb-0">Know</p>
                         <h2 class="major">About us</h2>
-                        <p class="body-text mb-3">Mentorship stands as a bridge towards letting people understand who they are, what they are capable of, and inspiring them to identify their opportunities and take them aboard to create their own employment or rather shape them become very competent to their carrier, hence easily sold to the employment market.
-                            <br><br>
-                            Despite the availability of many high and Tertiary education learning institutions, Tanzania faces the challenge of delivery of hands-on skills that can prepare a candidate to acquire practical skills of the pursued knowledge. That situation creates even more unappealing environment for most graduates because they do not feel set to face the employment challenges.
-                            <br><br>
-                            Apart from technologies, high and tertiary learning institutions provide knowledge in Economics, Agriculture, Social works, Education, Nutrition, Business, Political Science, etc. TYD is going to take care of any other sector, given be the need of the society.
-                            <br><br>
-                            In due strategy of developing skills for youth, TAVODET conceived an idea of establishing a Start-up Innovation Incubator, which was named TYD Innovation Incubator, was established in 2017.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="body-text mb-2">Mentorship stands as a bridge towards letting people understand who they are, what they are capable of, and inspiring them to identify their opportunities and take them aboard to create their own employment or rather shape them become very competent to their carrier, hence easily sold to the employment market.
+                                    </p>
+                                    <p class="body-text mb-2">Despite the availability of many high and Tertiary education learning institutions, Tanzania faces the challenge of delivery of hands-on skills that can prepare a candidate to acquire practical skills of the pursued knowledge. Different efforts have been initiated to curb the situation; amongst different initiatives are the Innovation Incubators. Although these Incubators are doing wonderful job to embrace the talented young, they are yet not enough to serve the purpose for all disciplines.
+                                    </p>
+                                    <p class="body-text mb-2">Apart from technologies, high and tertiary learning institutions provide knowledge in Economics, Agriculture, Social works, Education, Nutrition, Business, Political Science, etc. TYD is going to take care of any other sector, given be the need of the society.
+                                    </p>
+                                    <p class="body-text mb-2">
+                                        In due strategy of developing skills for youth, TAVODET conceived an idea of establishing a Start-up Innovation Incubator, which was named TYD Innovation Incubator, was established in 2017.</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4>Our Mission.</h4>
+                                    <p class="body-text mb-2"> We aim to provide mentorship to youths who aspire to become outstandingly competent thus enormously contribute to Tanzania's Socio-economic development. </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4>Our Vision.</h4>
+                                    <p class="body-text mb-2">To inspire people to identify their opportunities and take them aboard to create their own employment or rather shape them become very competent to their carrier. </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>

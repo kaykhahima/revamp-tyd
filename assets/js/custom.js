@@ -36,6 +36,16 @@ $(document).ready(function () {
     }
 });
 
-//console.log(document.getElementById('data').innerText.length);
 
-//console.log(document.getElementById('sidebar').offsetWidth);
+const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+console.log(document.getElementById('data').innerText.length);
+
+console.log(document.getElementById('overview').clientHeight);
+console.log(document.getElementById('curriculum').clientHeight);
+console.log((document.getElementById('overview').clientHeight * 100) / vh);
+
+//
+//$('#blogCarousel').carousel({
+//				interval: 5000
+//		});
