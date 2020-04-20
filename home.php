@@ -243,7 +243,7 @@
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <div class="text-center">
-                                                    <img src="http://tyd.or.tz/img/testimonials/1540719923.jpg" class="rounded" alt="">
+                                                    <img src="https://tyd.or.tz/img/testimonials/1540719923.jpg" class="rounded" alt="">
                                                     <h5 class="my-1">Mr. Emmanuel Slaa</h5>
                                                     <p class="mb-0">Accountant - Union of Training Institutions (UTI)
                                                     </p>
@@ -256,7 +256,7 @@
 
                                             <div class="carousel-item">
                                                 <div class="text-center">
-                                                    <img src="http://tyd.or.tz/img/testimonials/1576936110.jpg" class="rounded" alt="">
+                                                    <img src="https://tyd.or.tz/img/testimonials/1576936110.jpg" class="rounded" alt="">
                                                     <h5 class="my-1">Mr. Erick Steven</h5>
                                                     <p class="mb-0">Operations Officer - EMJEY COURIERS</p>
                                                     <div class="bordered"></div>
@@ -268,7 +268,7 @@
 
                                             <div class="carousel-item">
                                                 <div class="text-center">
-                                                    <img src="http://tyd.or.tz/img/testimonials/1537012279.jpg" class="rounded" alt="">
+                                                    <img src="https://tyd.or.tz/img/testimonials/1537012279.jpg" class="rounded" alt="">
                                                     <h5 class="my-1">Mr. Rajabu Mbarouk</h5>
                                                     <p class="mb-0">Managing Partner - Optimum Co. Ltd</p>
                                                     <div class="bordered"></div>
