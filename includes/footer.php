@@ -74,9 +74,8 @@
             <script src="<?php echo BASE_URL;?>/assets/js/jquery.min.js"></script>
             <script src="<?php echo BASE_URL;?>/assets/js/popper.js"></script>
             <script src="<?php echo BASE_URL;?>/assets/js/bootstrap.min.js"></script>
-            <script src="<?php echo BASE_URL;?>/assets/js/main2.js"></script>
             <script src="<?php echo BASE_URL;?>/assets/js/skel.min.js"></script>
-            <script src="<?php echo BASE_URL;?>/assets/js/main.js"></script>
+            <script src="<?php echo BASE_URL;?>/assets/js/main.min.js"></script>
             <script src="<?php echo BASE_URL;?>/assets/js/custom.js"></script>
             </body>
 
